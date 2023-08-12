@@ -1,1 +1,122 @@
+proxies:
+  - {"name":"jms-s1(US)","type":"ss","server":"c25s1.jamjams.net","port":"16392","cipher":"aes-256-gcm","password":"Q8zREsQZqg"}
+  - {"name":"jms-s2(US)","type":"ss","server":"c25s2.jamjams.net","port":"16392","cipher":"aes-256-gcm","password":"Q8zREsQZqg"}
+  - {"name":"jms-s3(US)","type":"vmess","server":"c25s3.jamjams.net","port":"16392","uuid":"7f1a0b44-a7f8-4c5a-866c-86876a84e018","alterId":"0","cipher":"auto"}
+  - {"name":"jms-s4(JP)","type":"vmess","server":"c25s4.jamjams.net","port":"16392","uuid":"7f1a0b44-a7f8-4c5a-866c-86876a84e018","alterId":"0","cipher":"auto"}
+  - {"name":"jms-s5(NL)","type":"vmess","server":"c25s5.jamjams.net","port":"16392","uuid":"7f1a0b44-a7f8-4c5a-866c-86876a84e018","alterId":"0","cipher":"auto"}
+  - {"name":"jms-sF(US)","type":"vmess","server":"c25s801.jamjams.net","port":"16392","uuid":"7f1a0b44-a7f8-4c5a-866c-86876a84e018","alterId":"0","cipher":"auto"}
 
+  - {"name":"jms-n1(US)","type":"ss","server":"c25s1.jjcruises.com","port":"16392","cipher":"aes-256-gcm","password":"Q8zREsQZqg"}
+  - {"name":"jms-n2(US)","type":"ss","server":"c25s2.jjcruises.com","port":"16392","cipher":"aes-256-gcm","password":"Q8zREsQZqg"}
+  - {"name":"jms-n3(US)","type":"vmess","server":"c25s3.jjcruises.com","port":"16392","uuid":"7f1a0b44-a7f8-4c5a-866c-86876a84e018","alterId":"0","cipher":"auto"}
+  - {"name":"jms-n4(JP)","type":"vmess","server":"c25s4.jjcruises.com","port":"16392","uuid":"7f1a0b44-a7f8-4c5a-866c-86876a84e018","alterId":"0","cipher":"auto"}
+  - {"name":"jms-n5(NL)","type":"vmess","server":"c25s5.jjcruises.com","port":"16392","uuid":"7f1a0b44-a7f8-4c5a-866c-86876a84e018","alterId":"0","cipher":"auto"}
+  - {"name":"jms-nF(US)","type":"vmess","server":"c25s801.jjcruises.com","port":"16392","uuid":"7f1a0b44-a7f8-4c5a-866c-86876a84e018","alterId":"0","cipher":"auto"}
+
+  - {"name":"V3-32|美国|x2.0","type":"ssr","server":"dt6r.cdn.node.a.tddns-ounk.com","port":40032,"cipher":"chacha20-ietf","password":"jL76UJd","protocol":"auth_aes128_sha1","protocol-param":"292771:o4C5JC","obfs":"tls1.2_ticket_auth","obfsparam":"8fa45292771.microsoft.com"}
+  - {"name":"V3-33|美国|x2.0","type":"vmess","server":"dt6r.cdn.node.a.tddns-ounk.com","port":40033,"uuid":"bbe66aff-79a1-34ad-9cba-7dadb191c071","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8","ws-headers":{"Host":"dt6r.cdn.node.a.tddns-ounk.com"},"ws-opts":{"path":"/80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8"}}
+  - {"name":"V3-193|美国|x2.0","type":"ssr","server":"dt6r.cdn.node.a.tddns-ounk.com","port":40193,"cipher":"chacha20-ietf","password":"jL76UJd","protocol":"auth_aes128_sha1","protocol-param":"292771:o4C5JC","obfs":"tls1.2_ticket_auth","obfsparam":"8fa45292771.microsoft.com"}
+  - {"name":"V3-194|美国|x2.0","type":"vmess","server":"dt6r.cdn.node.a.tddns-ounk.com","port":40194,"uuid":"bbe66aff-79a1-34ad-9cba-7dadb191c071","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/d1af668b-cff6-464a-9415-a7782ead72d5.j.live003.m3u8","ws-headers":{"Host":"dt6r.cdn.node.a.tddns-ounk.com"},"ws-opts":{"path":"/d1af668b-cff6-464a-9415-a7782ead72d5.j.live003.m3u8"}}
+  - {"name":"V3-207|美国|x2.0","type":"ssr","server":"dt6r.cdn.node.a.tddns-ounk.com","port":40207,"cipher":"chacha20-ietf","password":"jL76UJd","protocol":"auth_aes128_sha1","protocol-param":"292771:o4C5JC","obfs":"tls1.2_ticket_auth","obfsparam":"8fa45292771.microsoft.com"}
+  - {"name":"V3-208|美国|x2.0","type":"ssr","server":"dt6r.cdn.node.a.tddns-ounk.com","port":40208,"cipher":"chacha20-ietf","password":"jL76UJd","protocol":"auth_aes128_sha1","protocol-param":"292771:o4C5JC","obfs":"tls1.2_ticket_auth","obfsparam":"8fa45292771.microsoft.com"}
+  - {"name":"V3-213|美国|x2.0","type":"vmess","server":"dt6r.cdn.node.a.tddns-ounk.com","port":40213,"uuid":"bbe66aff-79a1-34ad-9cba-7dadb191c071","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/a49dcd8b-ae4f-4c06-bbe3-d8a229363187.j.live002.m3u8","ws-headers":{"Host":"dt6r.cdn.node.a.tddns-ounk.com"},"ws-opts":{"path":"/a49dcd8b-ae4f-4c06-bbe3-d8a229363187.j.live002.m3u8"}}
+  - {"name":"V3-214|美国|x2.0","type":"vmess","server":"dt6r.cdn.node.a.tddns-ounk.com","port":40214,"uuid":"bbe66aff-79a1-34ad-9cba-7dadb191c071","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/a49dcd8b-ae4f-4c06-bbe3-d8a229363187.j.live002.m3u8","ws-headers":{"Host":"dt6r.cdn.node.a.tddns-ounk.com"},"ws-opts":{"path":"/a49dcd8b-ae4f-4c06-bbe3-d8a229363187.j.live002.m3u8"}}
+  - {"name":"V3-343|美国|x2.0","type":"ssr","server":"dt6r.cdn.node.a.tddns-ounk.com","port":40343,"cipher":"chacha20-ietf","password":"jL76UJd","protocol":"auth_aes128_sha1","protocol-param":"292771:o4C5JC","obfs":"tls1.2_ticket_auth","obfsparam":"8fa45292771.microsoft.com"}
+  - {"name":"V3-346|美国|x2.0","type":"vmess","server":"dt6r.cdn.node.a.tddns-ounk.com","port":40346,"uuid":"bbe66aff-79a1-34ad-9cba-7dadb191c071","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8","ws-headers":{"Host":"dt6r.cdn.node.a.tddns-ounk.com"},"ws-opts":{"path":"/80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8"}}
+
+
+proxy-groups:
+  - name: "Proxy"
+    type: select
+    proxies:
+      - Auto
+      - jms-s1(US)
+      - jms-s2(US)
+      - jms-s3(US)
+      - jms-s4(JP)
+      - jms-s5(NL)
+      - jms-sF(US)
+      - jms-n1(US)
+      - jms-n2(US)
+      - jms-n3(US)
+      - jms-n4(JP)
+      - jms-n5(NL)
+      - jms-nF(US)
+      
+  - name: "Auto"
+    type: url-test
+    proxies:
+      - jms-s1(US)
+      - jms-s2(US)
+      - jms-s3(US)
+      - jms-sF(US)
+      - jms-n1(US)
+      - jms-n2(US)
+      - jms-n3(US)
+      - jms-nF(US)
+      - V3-32|美国|x2.0
+      - V3-33|美国|x2.0
+      - V3-193|美国|x2.0
+      - V3-194|美国|x2.0
+      - V3-207|美国|x2.0
+      - V3-208|美国|x2.0
+      - V3-213|美国|x2.0
+      - V3-214|美国|x2.0
+      - V3-343|美国|x2.0
+      - V3-346|美国|x2.0
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+
+rule-providers:
+  applications:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt"
+    path: ./ruleset/applications.yaml
+    interval: 86400
+
+  gfw:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt"
+    path: ./ruleset/gfw.yaml
+    interval: 86400
+
+  private:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt"
+    path: ./ruleset/private.yaml
+    interval: 86400
+
+  reject:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
+    path: ./ruleset/reject.yaml
+    interval: 86400
+
+  telegramcidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt"
+    path: ./ruleset/telegramcidr.yaml
+    interval: 86400
+
+  tld-not-cn:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/tld-not-cn.txt"
+    path: ./ruleset/tld-not-cn.yaml
+    interval: 86400
+
+rules:
+  - RULE-SET,applications,DIRECT
+  - DOMAIN,clash.razord.top,DIRECT
+  - DOMAIN,yacd.haishan.me,DIRECT
+  - RULE-SET,private,DIRECT
+  - RULE-SET,reject,REJECT
+  - RULE-SET,tld-not-cn,Proxys
+  - RULE-SET,gfw,Proxys
+  - RULE-SET,telegramcidr,Proxys
+  - MATCH,DIRECT
