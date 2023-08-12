@@ -26,10 +26,10 @@ proxies:
 
 
 proxy-groups:
-  - name: "Proxy"
+  - name: "Proxys"
     type: select
     proxies:
-      - Auto
+      - Auto_US
       - jms-s1(US)
       - jms-s2(US)
       - jms-s3(US)
@@ -43,7 +43,7 @@ proxy-groups:
       - jms-n5(NL)
       - jms-nF(US)
       
-  - name: "Auto"
+  - name: "Auto_US"
     type: url-test
     proxies:
       - jms-s1(US)
@@ -66,7 +66,7 @@ proxy-groups:
       - V3-346|美国|x2.0
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
-    
+        
 rule-providers:
   applications:
     type: http
@@ -116,7 +116,8 @@ rules:
   - DOMAIN,yacd.haishan.me,DIRECT
   - RULE-SET,private,DIRECT
   - RULE-SET,reject,REJECT
-  - RULE-SET,tld-not-cn,Proxy
-  - RULE-SET,gfw,Proxy
-  - RULE-SET,telegramcidr,Proxy
+  - RULE-SET,tld-not-cn,Proxys
+  - RULE-SET,gfw,Proxys
+  - RULE-SET,telegramcidr,Proxys
   - MATCH,DIRECT
+  
