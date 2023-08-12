@@ -24,7 +24,6 @@ proxies:
   - {"name":"V3-343|美国|x2.0","type":"ssr","server":"dt6r.cdn.node.a.tddns-ounk.com","port":40343,"cipher":"chacha20-ietf","password":"jL76UJd","protocol":"auth_aes128_sha1","protocol-param":"292771:o4C5JC","obfs":"tls1.2_ticket_auth","obfsparam":"8fa45292771.microsoft.com"}
   - {"name":"V3-346|美国|x2.0","type":"vmess","server":"dt6r.cdn.node.a.tddns-ounk.com","port":40346,"uuid":"bbe66aff-79a1-34ad-9cba-7dadb191c071","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8","ws-headers":{"Host":"dt6r.cdn.node.a.tddns-ounk.com"},"ws-opts":{"path":"/80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8"}}
 
-
 proxy-groups:
   - name: "Proxys"
     type: select
