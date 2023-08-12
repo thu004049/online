@@ -26,7 +26,7 @@ proxies:
 
 
 proxy-groups:
-  - name: "Proxys"
+  - name: "Proxy"
     type: select
     proxies:
       - Auto
@@ -116,7 +116,7 @@ rules:
   - DOMAIN,yacd.haishan.me,DIRECT
   - RULE-SET,private,DIRECT
   - RULE-SET,reject,REJECT
-  - RULE-SET,tld-not-cn,Proxys
-  - RULE-SET,gfw,Proxys
-  - RULE-SET,telegramcidr,Proxys
+  - RULE-SET,tld-not-cn,Proxy
+  - RULE-SET,gfw,Proxy
+  - RULE-SET,telegramcidr,Proxy
   - MATCH,DIRECT
